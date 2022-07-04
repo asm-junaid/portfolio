@@ -1,6 +1,7 @@
 body
 {
     font-family: 'Roboto Slab', serif;
+    margin: 0;
 }
 #welcome
 {
@@ -14,15 +15,27 @@ body
 {
     font-size: 35px;
 }
-section
+.sec1
 {
     display: flex;
+    background-image: url(Image/top-banner.png);
+    background-repeat: no-repeat;
 }
 .secpara
 {
     width: 50%;
     padding-left:1%;
 }
-.secpara img{
-    width: 100%;
+.sec1 img{
+    width: 75%;
+}
+#hire
+{
+    text-decoration: none;
+    padding: 15px 42px;
+    border-radius: 30px;
+    color: white;
+    font-weight: 650;
+    background-image: linear-gradient(orange, tomato);
+
 }
